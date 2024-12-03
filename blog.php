@@ -131,15 +131,17 @@ if (file_exists($postsFile)) {
     </style>
 </head>
 <body>
-    <header>
-        <div class="logo">
-            <img src="imgs/logo.png" alt="Logo">
-            <nav>
-                <a href="blog.php">Home</a>
-                <a href="#sobre">Sobre</a>
-            </nav>
-        </div>
-    </header>
+<header>
+    <div class="logo">
+        <img src="imgs/logo.png" alt="Logo do Processando Dados">
+    </div>
+    <nav>
+        <a href="blog.php">Home</a>
+        <a href="#sobre">Sobre</a>
+        <a href="autores.php">Autores</a>
+    </nav>
+</header>
+
 
     <main>
         <section id="posts">
